@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentAPP.API", "StudentAPP.API\StudentAPP.API.csproj", "{31D677A7-9DA2-49C6-B200-F88E806575B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentAPP.API", "StudentAPP.API\StudentAPP.API.csproj", "{31D677A7-9DA2-49C6-B200-F88E806575B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentAPP.Domain", "StudentAPP.Domain\StudentAPP.Domain.csproj", "{17A7AAA3-82E7-43B5-AD4E-624B3352DB6D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentAPP.Domain", "StudentAPP.Domain\StudentAPP.Domain.csproj", "{17A7AAA3-82E7-43B5-AD4E-624B3352DB6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentAPP.Application", "StudentAPP.Application\StudentAPP.Application.csproj", "{458B094C-D2B8-4706-AB09-A85C75FE800B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentAPP.Infrastructure", "StudentAPP.Infrastructure\StudentAPP.Infrastructure.csproj", "{481BED33-1E38-4730-9036-AA877AABA6FC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{17A7AAA3-82E7-43B5-AD4E-624B3352DB6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17A7AAA3-82E7-43B5-AD4E-624B3352DB6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17A7AAA3-82E7-43B5-AD4E-624B3352DB6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{458B094C-D2B8-4706-AB09-A85C75FE800B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{458B094C-D2B8-4706-AB09-A85C75FE800B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{458B094C-D2B8-4706-AB09-A85C75FE800B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{458B094C-D2B8-4706-AB09-A85C75FE800B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{481BED33-1E38-4730-9036-AA877AABA6FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{481BED33-1E38-4730-9036-AA877AABA6FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{481BED33-1E38-4730-9036-AA877AABA6FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{481BED33-1E38-4730-9036-AA877AABA6FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
